@@ -309,7 +309,7 @@ class FocusSenseApp(ctk.CTk):
         # ── Alert state ───────────────────────
         self._alert_banner = PostureAlertBanner(self)
         self._flash_screen = FullscreenFlash(self)
-        self._tray_manager = TrayIconManager(self)
+        #self._tray_manager = TrayIconManager(self)
         self._was_critical = False
         self._pulse_val    = 0.0      # for "LIVE" lightning effect
         self._pulse_dir    = 1
